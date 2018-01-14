@@ -1,5 +1,5 @@
 new Granim({
-  element: '#presentation',
+  element: '#presentation-background',
   direction: 'top-bottom',
   opacity: [1, 1],
   isPausedWhenNotInView: true,
@@ -19,3 +19,9 @@ new Granim({
     },
   },
 });
+
+new Tooltip(document.getElementById('github'), { title: 'sasalatart', placement: 'bottom' });
+new Tooltip(document.getElementById('linkedin'), { title: 'SASalataRT', placement: 'bottom' });
+new Tooltip(document.getElementById('telegram'), { title: '@SASalataRT', placement: 'bottom' });
+new Tooltip(document.getElementById('twitter'), { title: '@SASalataRT', placement: 'bottom' });
+new Tooltip(document.getElementById('resume'), { title: 'Resume', placement: 'bottom' });

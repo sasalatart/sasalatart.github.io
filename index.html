@@ -6,11 +6,40 @@
   <meta name="description" content="My Personal Website">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sebastián Salata R-T</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <canvas id="presentation" class="full-height full-width" />
+  <section class="presentation-container full-height full-width">
+    <canvas id="presentation-background" class="presentation-background"></canvas>
+    <div class="presentation-box">
+      <img src="https://www.gravatar.com/avatar/d71a14cbe4dbd23612f1d59fcb911cd5?s=250" class="avatar" />
+      <h1 class="name">Sebastián Salata R-T</h1>
+      <h3 class="occupation">Software Engineer</h3>
+      <a href="mailto:sebastian@salatart.com">sebastian@salatart.com</a>
+      <div class="presentation-links">
+        <a id="github" href="https://github.com/sasalatart" target="_blank">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a id="linkedin" href="https://cl.linkedin.com/in/sasalatart" target="_blank">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a id="telegram">
+          <i class="fab fa-telegram fa-2x"></i>
+        </a>
+        <a id="twitter" href="https://twitter.com/sasalatart" target="_blank">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a id="resume" href="https://salatart.com/resume/" target="_blank">
+          <i class="far fa-file fa-2x"></i>
+        </a>
+      </div>
+    </div>
+  </section>
   <script src="vendor/granim.min.js"></script>
+  <script src="vendor/popper.min.js"></script>
+  <script src="vendor/tooltip.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
   <script src="assets/scripts.js"></script>
 </body>
 </html>
