@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inconsolata";
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.full-size {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: rgba(53, 53, 53, 0.85);
+  border: 4px double white;
+  box-shadow: 0 2em 3em rgba(0, 0, 0, 0.65);
+  color: #ffffff;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.name,
+.occupation,
+#cv {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.name {
+  font-size: 2em;
+  margin: 15px 0 0 0;
+}
+
+.occupation {
+  font-size: 1.25em;
+  margin: 0 0 15px 0;
+}
+
+.contact {
+  font-size: 1.25em;
+  font-weight: lighter !important;
+}
+
+#cv {
+  font-size: 1.75em;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f1c40f;
+}
+
+.avatar {
+  border: 2px solid white;
+  max-width: 180px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.links a {
+  margin: 0 15px;
+}
+
+@media only screen and (min-width: 380px) {
+  .avatar {
+    max-width: 250px;
+  }
+
+  .box {
+    width: 450px;
+  }
+
+  .name {
+    font-size: 2.5em;
+  }
+}
