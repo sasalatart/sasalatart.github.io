@@ -1,5 +1,5 @@
 new Granim({
-  element: '#presentation-background',
+  element: '#background',
   direction: 'top-bottom',
   opacity: [1, 1],
   isPausedWhenNotInView: true,
