@@ -54,10 +54,15 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 #skills {
   cursor: pointer;
+}
+
+a.cv {
+  font-size: 1.5em;
 }
 
 @media only screen and (min-width: 380px) {
