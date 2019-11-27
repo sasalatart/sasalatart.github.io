@@ -1,80 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="My Personal Website">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sebastián Salata R-T</title>
-  <link href="assets/favicon.ico" rel="shortcut icon" type="image/ico" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="vendor/micromodal.css" rel="stylesheet">
-  <link href="assets/styles.css" rel="stylesheet">
-</head>
-<body>
-  <section class="container full-height full-width">
-    <canvas id="background" class="background"></canvas>
-    <div class="box">
-      <img src="https://www.gravatar.com/avatar/d71a14cbe4dbd23612f1d59fcb911cd5?s=250" class="avatar" />
-      <h1 class="name">
-        Sebastián Salata R-T
-      </h1>
-      <h3 class="occupation">
-        Software Engineer
-      </h3>
-      <a href="mailto:&#115;&#101;&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#115;&#097;&#108;&#097;&#116;&#097;&#114;&#116;&#046;&#099;&#111;&#109;">
-        &#115;&#101;&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#115;&#097;&#108;&#097;&#116;&#097;&#114;&#116;&#046;&#099;&#111;&#109;
-      </a>
-      <div class="links">
-        <a id="github" href="https://github.com/sasalatart" target="_blank">
-          <i class="fab fa-github fa-2x"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My Personal Website" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sebastián Salata</title>
+    <link href="assets/favicon.ico" rel="shortcut icon" type="image/ico" />
+    <link href="vendor/micromodal.css" rel="stylesheet" />
+    <link href="assets/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="container full-height full-width">
+      <div class="box">
+        <img
+          src="https://www.gravatar.com/avatar/d71a14cbe4dbd23612f1d59fcb911cd5?s=250"
+          class="avatar"
+        />
+        <h1>
+          Sebastián Salata
+        </h1>
+        <h3>
+          Software Engineer
+        </h3>
+        <a
+          href="mailto:&#115;&#101;&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#115;&#097;&#108;&#097;&#116;&#097;&#114;&#116;&#046;&#099;&#111;&#109;"
+        >
+          &#115;&#101;&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#115;&#097;&#108;&#097;&#116;&#097;&#114;&#116;&#046;&#099;&#111;&#109;
         </a>
-        <a id="linkedin" href="https://cl.linkedin.com/in/sasalatart" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a id="twitter" href="https://twitter.com/sasalatart" target="_blank">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a id="skills" data-micromodal-trigger="skills-modal">
-          <i class="far fa-star fa-2x"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <div id="skills-modal" class="modal micromodal-slide" aria-hidden="true">
-    <div class="modal-overlay" tabindex="-1" data-micromodal-close>
-      <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="skills-modal-title">
-        <div class="modal-header">
-          <h2 class="modal-title">
-            Skills
-          </h2>
-          <button class="modal-close" aria-label="Close modal" data-micromodal-close></button>
-        </div>
-        <div class="modal-content">
-          <ul>
-            <li>Node.js</li>
-            <li>Koa.js</li>
-            <li>React</li>
-            <li>React-Native</li>
-            <li>Ruby on Rails</li>
-            <li>Ruby</li>
-            <li>Python</li>
-            <li>AWS</li>
-            <li>Docker</li>
-            <li>Terraform</li>
-            <li>... and reading history :P</li>
-          </ul>
+        <div class="links">
+          <a id="github" href="https://github.com/sasalatart" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a
+            id="linkedin"
+            href="https://cl.linkedin.com/in/sasalatart"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a id="twitter" href="https://twitter.com/sasalatart" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a id="skills" data-micromodal-trigger="skills-modal">
+            <i class="far fa-star fa-2x"></i>
+          </a>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <script src="vendor/granim.min.js"></script>
-  <script src="vendor/micromodal.min.js"></script>
-  <script src="vendor/popper.min.js"></script>
-  <script src="vendor/tooltip.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
-  <script src="assets/scripts.js"></script>
-</body>
+    <div id="skills-modal" class="modal micromodal-slide" aria-hidden="true">
+      <div class="modal-overlay" tabindex="-1" data-micromodal-close>
+        <div
+          class="modal-container"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="skills-modal-title"
+        >
+          <div class="modal-header">
+            <h2 class="modal-title">
+              Skills
+            </h2>
+            <button
+              class="modal-close"
+              aria-label="Close modal"
+              data-micromodal-close
+            ></button>
+          </div>
+          <div class="modal-content">
+            <ul>
+              <li>Node.js</li>
+              <li>Koa.js</li>
+              <li>React</li>
+              <li>React-Native</li>
+              <li>Ruby on Rails</li>
+              <li>Ruby</li>
+              <li>Python</li>
+              <li>AWS</li>
+              <li>Docker</li>
+              <li>Terraform</li>
+              <li>... and reading history :P</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="vendor/micromodal.min.js"></script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="vendor/tooltip.min.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"
+    ></script>
+    <script src="assets/scripts.js"></script>
+  </body>
 </html>

@@ -1,10 +1,14 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #3867d6;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 10px 0;
 }
 
@@ -23,7 +27,7 @@ h1, h2, h3, p {
 }
 
 .box {
-  background-color: rgba(44, 62, 80, 0.66);
+  background-color: rgba(75, 101, 132, 0.66);
   border: 4px double white;
   box-shadow: 0 2em 3em rgba(0, 0, 0, 0.65);
   color: #ffffff;
@@ -42,24 +46,8 @@ h1, h2, h3, p {
   color: #f1c40f;
 }
 
-.background {
-  height: inherit;
-  width: inherit;
-  position: absolute;
-  z-index: -1;
-}
-
 .avatar {
   border: 2px solid white;
-  border-radius: 5px;
-}
-
-.name {
-  font-size: 1.5em;
-}
-
-.occupation {
-  font-size: 1.25em;
 }
 
 .links {
@@ -73,12 +61,14 @@ h1, h2, h3, p {
 }
 
 @media only screen and (min-width: 380px) {
-  h1, h2, h3, p {
+  h1,
+  h2,
+  h3,
+  p {
     margin: 15px 0;
   }
 
   .box {
-    border-radius: 15px;
     width: 450px;
   }
 
