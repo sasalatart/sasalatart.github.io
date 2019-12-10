@@ -14,6 +14,6 @@ new Tooltip(document.getElementById("twitter"), {
 });
 
 new Tooltip(document.getElementById("cv"), {
-  title: "Open CV",
+  title: "See CV",
   placement: "bottom"
 });
