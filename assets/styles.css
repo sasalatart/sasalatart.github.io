@@ -1,24 +1,18 @@
+html,
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
   background: url(background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-h1,
-h2,
-h3,
-p {
-  margin: 10px 0;
-}
-
-.full-height {
+.full-size {
   height: 100vh;
-}
-
-.full-width {
   width: 100vw;
 }
 
@@ -33,18 +27,41 @@ p {
   border: 4px double white;
   box-shadow: 0 2em 3em rgba(0, 0, 0, 0.65);
   color: #ffffff;
-  padding: 25px;
+  padding: 25px 20px;
   text-align: center;
-  width: 250px;
 }
 
-.box a {
+.name,
+.occupation,
+#cv {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.name {
+  font-size: 2.5em;
+  margin: 15px 0 0 0;
+}
+
+.occupation {
+  font-size: 1.5em;
+  margin: 0 0 15px 0;
+}
+
+.contact {
+  font-size: 1.25em;
+  font-weight: lighter !important;
+}
+
+#cv {
+  font-size: 1.75em;
+}
+
+a {
   color: #ffffff;
-  margin: 15px;
   text-decoration: none;
 }
 
-.box a:hover {
+a:hover {
   color: #f1c40f;
 }
 
@@ -55,39 +72,15 @@ p {
 .links {
   display: flex;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin: 25px 0;
 }
 
-#skills {
-  cursor: pointer;
-}
-
-a.cv {
-  font-size: 1.5em;
+.links a {
+  margin: 0 15px;
 }
 
 @media only screen and (min-width: 380px) {
-  h1,
-  h2,
-  h3,
-  p {
-    margin: 15px 0;
-  }
-
   .box {
     width: 450px;
-  }
-
-  .name {
-    font-size: 2.5em;
-  }
-
-  .occupation {
-    font-size: 1.75em;
-  }
-
-  .links {
-    margin-top: 33px;
   }
 }

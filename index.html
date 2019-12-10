@@ -7,27 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sebastián Salata</title>
     <link href="assets/favicon.ico" rel="shortcut icon" type="image/ico" />
-    <link href="vendor/micromodal.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Inconsolata&display=swap"
+      rel="stylesheet"
+    />
     <link href="assets/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <section class="container full-height full-width">
+    <section class="container full-size">
       <div class="box">
         <img
           src="https://www.gravatar.com/avatar/d71a14cbe4dbd23612f1d59fcb911cd5?s=250"
           class="avatar"
         />
-        <h1>
+        <h1 class="name">
           Sebastián Salata
         </h1>
-        <h3>
+        <h3 class="occupation">
           Software Engineer
         </h3>
-        <a
-          href="mailto:&#115;&#101;&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#115;&#097;&#108;&#097;&#116;&#097;&#114;&#116;&#046;&#099;&#111;&#109;"
-        >
-          &#115;&#101;&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#115;&#097;&#108;&#097;&#116;&#097;&#114;&#116;&#046;&#099;&#111;&#109;
-        </a>
+        <h3 class="contact">
+          <a
+            href="mailto:&#115;&#101;&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#115;&#097;&#108;&#097;&#116;&#097;&#114;&#116;&#046;&#099;&#111;&#109;"
+          >
+            &#115;&#101;&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#115;&#097;&#108;&#097;&#116;&#097;&#114;&#116;&#046;&#099;&#111;&#109;
+          </a>
+        </h3>
         <div class="links">
           <a id="github" href="https://github.com/sasalatart" target="_blank">
             <i class="fab fa-github fa-2x"></i>
@@ -42,59 +47,13 @@
           <a id="twitter" href="https://twitter.com/sasalatart" target="_blank">
             <i class="fab fa-twitter fa-2x"></i>
           </a>
-          <a id="skills" data-micromodal-trigger="skills-modal">
-            <i class="far fa-star fa-2x"></i>
+          <a id="cv" href="assets/cv.pdf" target="_blank">
+            CV
           </a>
         </div>
-
-        <a class="cv" href="assets/cv.pdf" target="_blank">
-          CV
-        </a>
       </div>
     </section>
 
-    <div id="skills-modal" class="modal micromodal-slide" aria-hidden="true">
-      <div class="modal-overlay" tabindex="-1" data-micromodal-close>
-        <div
-          class="modal-container"
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="skills-modal-title"
-        >
-          <div class="modal-header">
-            <h2 class="modal-title">
-              Skills
-            </h2>
-            <button
-              class="modal-close"
-              aria-label="Close modal"
-              data-micromodal-close
-            ></button>
-          </div>
-          <div class="modal-content">
-            <ul>
-              <li>Node.js</li>
-              <li>Ruby</li>
-              <li>Python</li>
-              <li>Koa.js</li>
-              <li>Ruby on Rails</li>
-              <li>React</li>
-              <li>React-Native</li>
-              <li>GraphQL</li>
-              <li>AWS</li>
-              <li>Terraform</li>
-              <li>Docker</li>
-              <li>CI/CD</li>
-              <li>SQL</li>
-              <li>MongoDB</li>
-              <li>... and reading history :P</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="vendor/micromodal.min.js"></script>
     <script src="vendor/popper.min.js"></script>
     <script src="vendor/tooltip.min.js"></script>
     <script
