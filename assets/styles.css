@@ -32,8 +32,7 @@ body {
 }
 
 .name,
-.occupation,
-#cv {
+.occupation {
   font-family: "Cinzel Decorative", cursive;
 }
 
@@ -50,10 +49,6 @@ body {
 .contact {
   font-size: 1.25em;
   font-weight: lighter !important;
-}
-
-#cv {
-  font-size: 1.75em;
 }
 
 a {
