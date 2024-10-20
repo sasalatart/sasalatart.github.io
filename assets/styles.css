@@ -6,7 +6,6 @@ body {
 
 body {
   font-family: "Inconsolata";
-  background: url(background.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -87,4 +86,13 @@ a:hover {
   .name {
     font-size: 2.5em;
   }
+}
+
+#three-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
